@@ -1,22 +1,16 @@
 {
-  "name": "blog",
+  "name": "blogatmp",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "art-template版",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyonline/myblog.git"
-  },
-  "author": "chengyu",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cyonline/myblog/issues"
-  },
-  "homepage": "https://github.com/cyonline/myblog#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "art-template": "^4.13.2",
+    "express": "^4.16.4",
+    "express-art-template": "^1.0.1"
   }
 }
