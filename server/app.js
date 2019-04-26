@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
-app.use(express.static(__dirname+'../dist'));
-app.use('../dist/assets', express.static('../dist/assets'));
+app.use(express.static('../dist'));
+app.use('/assets', express.static('../dist/assets'));
 
-app.listen(4200,res=>{
+app.listen(4200,()=>{
     console.log('server is running!')
 })
